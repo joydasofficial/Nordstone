@@ -1,0 +1,13 @@
+.splashScreen{
+  width: 100vw;
+  height: 100vh;
+  background: rgb(56, 56, 56);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & h1{
+    font-size: 100px;
+    color: white;
+  }
+}

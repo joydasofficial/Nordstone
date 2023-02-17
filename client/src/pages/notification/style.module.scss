@@ -1,0 +1,23 @@
+.mainContainer{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & button{
+    background: tomato;
+    padding: 20px 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid tomato;
+    cursor: pointer;
+
+    &:hover{
+      background: white;
+      color: tomato;
+    }
+  }
+}

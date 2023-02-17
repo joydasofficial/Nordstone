@@ -1,0 +1,47 @@
+.mainContainer{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #8953D8;
+  background: -webkit-linear-gradient(top left, #8953D8, #8638AF);
+  background: -moz-linear-gradient(top left, #8953D8, #8638AF);
+  background: linear-gradient(to bottom right, #8953D8, #8638AF);
+
+  & .inputContainer{
+
+    & h2{
+      text-align: center;
+      color: white;
+      font-size: 30px;
+    }
+
+    & input{
+      width: 20vw;
+      padding: 10px 15px;
+      border-radius: 10px;
+      outline: none;
+      border: none;
+    }
+
+    & button{
+      width: 10vw;
+      padding: 11px 15px;
+      border-radius: 10px;
+      border: none;
+      margin-left: 10px;
+      outline: none;
+      color: white;
+      font-weight: bold;
+      background: #6F13C5;
+      background: -webkit-linear-gradient(top left, #6F13C5, #4408B5);
+      background: -moz-linear-gradient(top left, #6F13C5, #4408B5);
+      background: linear-gradient(to bottom right, #6F13C5, #4408B5);
+
+      &:hover{
+        background: #32065c;
+      }
+    }
+  }
+}

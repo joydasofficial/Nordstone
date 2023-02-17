@@ -1,0 +1,72 @@
+.mainContainer{
+  width: 100vw;
+  height: 100vh;
+  background: rgba(252, 252, 252, 0.507);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & .cardContainer{
+    width: 40%;
+    height: 80vh;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 0 30px 10px #dadada;
+
+    & h2{
+      font-size: 40px;
+      color: #6f13c5;
+      margin-bottom: 20px;
+    }
+
+    & form{
+      width: 90%;
+    }
+
+    & label{
+      margin: 0 10px; 
+    }
+
+    & input{
+      width: 90%;
+      margin: 10px auto 20px auto;
+      display: block;
+      padding: 12px 15px;   
+      border-radius: 5px;   
+      border: 1px solid  #6f13c5;
+      outline: none;
+    }
+
+    & button{
+      width: 30%;
+      padding: 8px 0;
+      margin: 10px;
+      cursor: pointer;
+      border-radius: 5px;   
+      border: none;
+      background: #6f13c5;
+      background: -webkit-linear-gradient(top left, #6f13c5, #4408b5);
+      background: -moz-linear-gradient(top left, #6f13c5, #4408b5);
+      background: linear-gradient(to bottom right, #6f13c5, #4408b5);
+      color: white;
+      font-size: 15px;
+      font-weight: bold;
+
+      &:hover{
+        background: #32065c;
+      }
+    }
+
+    & p{
+      margin-left: 10px;
+    }
+    & .linktext{
+      color: #6f13c5;
+      cursor: pointer;
+    }
+  }
+}
